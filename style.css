@@ -1,0 +1,115 @@
+ * {
+    box-sizing: border-box;
+    }
+    
+  body {
+    background-color: white;
+  }
+  
+  h1 {
+    margin: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    color: Darkred;
+  }
+    
+  section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+   p {
+    position: relative;
+    clear: right;
+  }
+    
+  div {
+    position: relative;
+    background-color: GreenYellow;
+    border: 4px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+        }
+    
+    .movies {
+        color: black;
+        float: right;
+        width: 150px;
+        padding: 3px;
+        margin: 0px;
+        border: 1px solid black;
+        font-size: 100%;
+        background-color: DarkGoldenrod;
+    
+        }
+    
+    .cookies {
+        color: black;
+        float: right;
+        width: 150px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        font-size: 100%;
+        background-color: Lime;
+    	}
+    .elf {
+        color: black;
+        float: right;
+        width: 150px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        font-size: 100%;
+        background-color: Red;
+      	}
+    
+.content {
+  padding: 20px;
+  border: 2px;
+  background-color: GreenYellow;
+  font-family: Helvetica;
+  color: black;
+  margin: 2px;
+  height: 150px;
+}
+ .row {
+    width: 90%;
+        }
+    
+/**********desktop styles**********/
+  @media (min-width: 992px) {
+    .column-lg-1 {
+      float: left;
+      width: 33.33%; /****100% for 3*****/
+    }
+  }
+
+/**********tablet styles**********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-3{
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .colmn-md-5 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+    
+/***********mobile styles**********/
+  @media (max-width: 767px) {
+    .colmn-mb-5 {
+      float: left;
+      width: 100%;
+      }
+  }
+
